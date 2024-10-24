@@ -1,0 +1,15 @@
+[package]
+name = "Course completion badge"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x9c4e6622dc7d4e96aac1d717759415a7e31df37ddbaa6e3cd77379914185ff14"
+my_addrx = "0x001"
+
+[dev-addresses]
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "mainnet", subdir = "aptos-move/framework/aptos-framework" }
+
+[dev-dependencies]
